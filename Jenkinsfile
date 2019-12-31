@@ -35,7 +35,7 @@ pipeline {
                 NEXUS_VERSION = "nexus3"
                 NEXUS_PROTOCOL = "http"
                 NEXUS_URL = "server:8081"
-                NEXUS_REPOSITORY = "repository/maven-releases"
+                NEXUS_REPOSITORY = "maven-releases"
                 NEXUS_CREDENTIAL_ID = "jenkinsForNexus"
             }
             steps {
